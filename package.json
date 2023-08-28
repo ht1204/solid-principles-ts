@@ -1,0 +1,25 @@
+{
+  "name": "solid-principles-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev:single": "ts-node-dev --transpile-only --respawn --exit-child ./src/single-responsability/index.ts",
+    "dev:open": "ts-node-dev --transpile-only --respawn --exit-child ./src/open-closed/index.ts",
+    "dev:liskov": "ts-node-dev --transpile-only --respawn --exit-child ./src/liskov-substitution/index.ts",
+    "dev:interface": "ts-node-dev --transpile-only --respawn --exit-child ./src/interface-segregation/index.ts",
+    "dev:dependency": "ts-node-dev --transpile-only --respawn --exit-child ./src/dependency-injection/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
